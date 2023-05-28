@@ -4,5 +4,26 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-    margin: 0 148px 92px;
+    margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 1152px) {
+    
+    .places {
+        max-width: 928px;
+        min-height: 3292px;
+        margin: 0 auto 92px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    
+    .places {
+        max-width: 720px;
+        min-height: 2808px;
+        display: flex;
+        flex-direction: column;
+        gap: 73px;
+        margin: 0 auto 90px;
+    }
 }

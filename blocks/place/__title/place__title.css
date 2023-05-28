@@ -11,3 +11,20 @@
     color: #FFFFFF;
     margin: 0;
 }
+
+@media screen and (max-width: 1152px) {
+    
+    .place__title {
+        max-width: 440px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 340px;
+        min-height: 46px;
+    }
+}

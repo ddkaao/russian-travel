@@ -4,5 +4,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 28px 48px 0;
+    margin: 0 48px 0;
+    padding-top: 28px;
+}
+
+@media screen and (max-width: 960px) {
+    
+    .header {
+        margin: 0 24px 0;
+    }
 }
