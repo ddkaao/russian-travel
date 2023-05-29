@@ -3,7 +3,7 @@
     gap: 18px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 721px) {
     
     .footer__links {
         display: flex;

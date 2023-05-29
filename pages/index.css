@@ -1,6 +1,7 @@
 /* Подключение общих стилей */
 @import url(../vendor/normalize.css);
 @import url(../vendor/inter.css);
+@import url(../blocks/container/container.css);
 @import url(../blocks/page/page.css);
 
 /* Подключение стилей у header */
@@ -8,6 +9,7 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_selected/header__lang-link_selected.css);
 
 /* Подключение стилей у блока lead */
 @import url(../blocks/lead/lead.css);
@@ -21,7 +23,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-@import url(../blocks/position/position.css);
+@import url(../blocks/intro/__number/intro__number.css);
 
 /* Подключение стилей у блока photo-grid */
 @import url(../blocks/photo-grid/photo-grid.css);

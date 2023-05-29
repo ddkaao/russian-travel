@@ -6,7 +6,7 @@
     gap: 32px;
     align-items: center;
     justify-content: center;
-    background-image: url(../../../sprint-3-images/cover-trains.jpg);
+    background-image: url(../../../images/cover-trains.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     text-decoration: none;
@@ -42,7 +42,7 @@
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 721px) {
     
     .cover__link {
         min-height: 200px;
