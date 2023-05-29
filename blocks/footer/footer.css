@@ -21,3 +21,14 @@
         max-width: 720px;
     }
 }
+
+@media screen and (max-width: 700px) {
+    
+    .footer {
+        max-width: 320px;
+        min-height: 310px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 16px;
+    }
+}

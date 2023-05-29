@@ -18,3 +18,12 @@
         max-width: 352px;
     }
 }
+
+@media screen and (max-width: 700px) {
+    
+    .place__paragraphs {
+        max-width: 288px;
+        order: 4;
+        padding-left: 16px;
+    }
+}
